@@ -3,8 +3,8 @@ package com.bolaware.viewstimerstory
 import android.animation.Animator
 import android.animation.ObjectAnimator
 import android.content.Context
-import android.support.annotation.DrawableRes
-import android.support.v4.content.ContextCompat
+import androidx.annotation.DrawableRes
+import androidx.core.content.ContextCompat
 import android.widget.LinearLayout
 import android.widget.ProgressBar
 import toPixel

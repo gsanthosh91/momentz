@@ -2,9 +2,9 @@ package com.bolaware.viewsslidetimer
 
 import android.graphics.Color
 import android.media.MediaPlayer
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v4.content.ContextCompat
+import androidx.core.content.ContextCompat
 import android.view.View
 import android.widget.*
 import kotlinx.android.synthetic.main.activity_main.*

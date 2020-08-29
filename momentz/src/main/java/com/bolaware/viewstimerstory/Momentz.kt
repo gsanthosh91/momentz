@@ -1,8 +1,8 @@
 package com.bolaware.viewstimerstory
 
 import android.content.Context
-import android.support.annotation.DrawableRes
-import android.support.constraint.ConstraintLayout
+import androidx.annotation.DrawableRes
+import androidx.constraintlayout.widget.ConstraintLayout
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
