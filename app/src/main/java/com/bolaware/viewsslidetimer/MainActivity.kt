@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity(), MomentzCallback {
         } else if ((view is ImageView) && (view.drawable == null)) {
             momentz.pause(true)
             Picasso.get()
-                .load( list[index])
+                .load(list[index])
                 //.memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE)
                 .into(view, object : Callback {
                     override fun onSuccess() {
@@ -115,7 +115,7 @@ class MainActivity : AppCompatActivity(), MomentzCallback {
             override fun onInfo(mp: MediaPlayer?, what: Int, extra: Int): Boolean {
                 if (what == MediaPlayer.MEDIA_INFO_VIDEO_RENDERING_START) {
                     momentz.editDurationAndResume(index, (videoView.duration) / 1000)
-                    //Toast.makeText(this@MainActivity, "Video loaded from the internet", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this@MainActivity, "Video loaded from the internet", Toast.LENGTH_LONG).show()
                     return true
                 }
                 return false
